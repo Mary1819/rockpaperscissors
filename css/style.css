@@ -3,5 +3,10 @@
 }
 .choices {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-size:50px;
 }
