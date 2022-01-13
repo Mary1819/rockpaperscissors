@@ -5,6 +5,13 @@
   display: flex;
   justify-content: space-around;
 }
+.computerChoicet {
+        display: block;
+        margin: 10px;
+        margin-left: auto;
+        margin-right: 5px;
+        text-align: right;
+}
 
 h1{
   font-family: 'Dancing Script', cursive;

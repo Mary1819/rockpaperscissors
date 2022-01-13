@@ -1,43 +1,55 @@
-let userChoice= $(".input").val(); 
 let computerOutput= Math.ceil(Math.random() * 3);
 let computerChoice;
 let result;
 
   if(computerOutput === 1) {
-     computerChoice = "rock;"
-    (".computerChoice").text("Rock");
+     computerChoice = "rock";
+     $(".computerChoicet").text("Rock");
 } else if(computerOutput === 2) {
-       computerChoice = "paper;"
-    (".computerChoice").text("Paper");
+       computerChoice = "paper";
+  $(".computerChoicet").text("Paper");
 } else if (computerOutput === 3) {
-       computerChoice = "sicssor;"
-  (".computerChoice").text("Scissor")
+       computerChoice = "scissor";
+  $(".computerChoicet").text("Scissor");
 }
-
  
  $(".shoot").click(function () {
-   $(".userChoice").text(userChoice);
+   let userChoice= $(".input").val(); 
+   $(".userChoicet").text(userChoice);
    
+      console.log("hi"+ userChoice);
    if (userChoice === "rock" && computerChoice === "rock") {
-    result = "It's a tie!";
+         // result = "It's a tie!";
+     $(".resultt").text("It is a tie");
   } else if (userChoice === "paper" && computerChoice === "rock") {
-    result = "You win!";
+    // result = "You win!";
+    $(".resultt").text("You win");
   } else if (userChoice === "scissor" && computerChoice === "rock") {
-    result = "Computer wins!";
+    // result = "Computer wins!";
+    $(".resultt").text("Computer win");
   } else if (userChoice === "rock" && computerChoice === "paper") {
-    result = "Computer wins!";
+    // result = "Computer wins!";
+    $(".resultt").text("Computer win");
   } else if (userChoice === "paper" && computerChoice === "paper") {
-    result = "It's a tie";
+    // result = "It's a tie";
+    $(".resultt").text("It is a tie");
   } else if (userChoice === "scissor" && computerChoice === "paper") {
-    result = "You win!";
+    // result = "You win!";
+    $(".resultt").text("You win");
   } else if (userChoice === "rock" && computerChoice === "scissor") {
-    result = "You win!";
+    // result = "You win!";
+    $(".resultt").text("You win");
   } else if (userChoice === "paper" && computerChoice === "scissor") {
-    result = "Computer wins!";
+    // result = "Computer wins!";
+    $(".resultt").text("Computer win");
   } else if (userChoice === "scissor" && computerChoice === "scissor") {
-    result = "It's a tie!";
+    // result = "It's a tie!";
+    $(".resultt").text("It is a tie");
+
   }
-  $(".result").text(result);
+      //is there a problem in this line of code?
+      // $(".resultt").text(result);
+
 });
 
 
