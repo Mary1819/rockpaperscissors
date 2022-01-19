@@ -112,7 +112,7 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 
 - [ ] Style the page to fit your personality
 - [x] Validates input so that it will return “Not valid input” if the user types in a wrong choice.
-- [ ] Accepts any form of a word regardless of capitalization (i.e. “Rock” “rock” roCk”)
+- [x] Accepts any form of a word regardless of capitalization (i.e. “Rock” “rock” roCk”)
 - [ ] Keeps track of total wins and losses, until the page refreshes.
 - [ ] Create a game with more variety in throwing options. Example: [Rock-Paper-Scissors-Lizard-Spock](http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock)
 
