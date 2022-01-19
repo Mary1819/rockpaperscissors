@@ -68,50 +68,50 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 
 ### Day 4 Goal 2: Increase user experience (BONUS!)
 
-- [ ] Test that your game performs correctly in case of a tie
-- [ ] Clear the input value once a result is displayed so your game is ready to play again
+- [x] Test that your game performs correctly in case of a tie
+- [x] Clear the input value once a result is displayed so your game is ready to play again
 
 #### Wrap
 
-- [ ] Commit your changes!
+- [x] Commit your changes!
 
 #### Day 5
 
 ### Day 5 Goal 1: Create a function to handle your computer choice logic
 
-- [ ] Write a function called getRandomComputerChoice that does not accept any parameters and returns computerChoice
-- [ ] Move your `Math.random` inside your function
-- [ ] Move your conditional logic that determines the computer choice inside your function
+- [x] Write a function called getRandomComputerChoice that does not accept any parameters and returns computerChoice
+- [x] Move your `Math.random` inside your function
+- [x] Move your conditional logic that determines the computer choice inside your function
 
 ### Day 5 Goal 2: Call your getRandomComputerChoice function
 
-- [ ] Call your function inside your click handler so that it determines the value of your computerChoice variable
-  - [ ] HINT: Your getRandomComputerChoice function works correctly if it returns rock, paper, or scissors when called
+- [x] Call your function inside your click handler so that it determines the value of your computerChoice variable
+- [x] HINT: Your getRandomComputerChoice function works correctly if it returns rock, paper, or scissors when called
 
 #### Wrap
 
-- [ ] Commit your changes!
+- [x] Commit your changes!
 
 #### Day 6
 
 ### Day 6 Goal 1: Create a function to handle your winner logic
 
-- [ ] Write a function called chooseWinner that does accepts two parameters and returns winner
-- [ ] Move your compound conditional logic that determines the winner inside your function
+- [x] Write a function called chooseWinner that does accepts two parameters and returns winner
+- [x] Move your compound conditional logic that determines the winner inside your function
 
 ### Day 6 Goal 2: Call your chooseWinner function
 
-- [ ] Call your function inside your click handler so that it determines the value of your winner variable
-  - [ ] HINT: Your chooseWinner function works correctly if it returns "User wins!", "Computer wins!" or "No one wins!" when called
+- [x] Call your function inside your click handler so that it determines the value of your winner variable
+- [x] HINT: Your chooseWinner function works correctly if it returns "User wins!", "Computer wins!" or "No one wins!" when called
 
 #### Wrap
 
-- [ ] Commit your changes!
+- [x] Commit your changes!
 
 ## Projects Extensions:
 
 - [ ] Style the page to fit your personality
-- [ ] Validates input so that it will return “Not valid input” if the user types in a wrong choice.
+- [x] Validates input so that it will return “Not valid input” if the user types in a wrong choice.
 - [ ] Accepts any form of a word regardless of capitalization (i.e. “Rock” “rock” roCk”)
 - [ ] Keeps track of total wins and losses, until the page refreshes.
 - [ ] Create a game with more variety in throwing options. Example: [Rock-Paper-Scissors-Lizard-Spock](http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock)
