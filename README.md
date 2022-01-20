@@ -15,7 +15,7 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 #### GitHub Set-Up
 
 - [x] Go to the repository at https://github.com/itscodenation/rockpaperscissors
-- [ ] Fork this repository to your Github account and import to a new workspace
+- [x] Fork this repository to your Github account and import to a new workspace
 - [ ] Link and commit your changes
 - [ ] Make your site live on GitHub Pages
 
@@ -111,8 +111,8 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 ## Projects Extensions:
 
 - [ ] Style the page to fit your personality
-- [ ] Validates input so that it will return “Not valid input” if the user types in a wrong choice.
-- [ ] Accepts any form of a word regardless of capitalization (i.e. “Rock” “rock” roCk”)
+- [x] Validates input so that it will return “Not valid input” if the user types in a wrong choice.
+- [x] Accepts any form of a word regardless of capitalization (i.e. “Rock” “rock” roCk”)
 - [ ] Keeps track of total wins and losses, until the page refreshes.
 - [ ] Create a game with more variety in throwing options. Example: [Rock-Paper-Scissors-Lizard-Spock](http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock)
 
