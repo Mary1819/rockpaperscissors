@@ -65,8 +65,5 @@ $(".shoot").click(function () {
   userChoice = $(".input").val().toLowerCase();
   $(".userChoicet").text(userChoice);
   chooseWinner();
-  tie = tie + 1;
-  won = won + 1;
-  lost = lost + 1;
   $(".resultt").text(winner);
 });
